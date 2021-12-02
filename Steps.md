@@ -30,7 +30,8 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 [DOWNLOAD SOFTWARE BALENA ETCHER](#DOWNLOAD-SOFTWARE-BALENA-ETCHER)<br><br>
 [MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
 [MODIFICARE IL FILE CONFIG.TXT](#MODIFICARE-IL-FILE-CONFIG.TXT)<br><br>
-[MONTARE LA SCHEDA SD SUL RASPBERRY](#MMONTARE-LA-SCHEDA-SD-SUL-RASPBERRY)<br><br>
+[MONTARE LA SCHEDA SD SUL RASPBERRY](#MONTARE-LA-SCHEDA-SD-SUL-RASPBERRY)<br><br>
+[CONFIGURARE IL SISTEMA OPERATIVO RASPBIAN](#CONFIGURARE-IL-SISTEMA-OPERATIVO-RASPBIAN)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
 In base al pacchetto Raspberry comprato avremo diversi componenti da montare.
@@ -86,5 +87,29 @@ Inserita la scheda SD:
 Infine:
 >         collegare l'alimentatore tra Raspberry e presa elettrica
 
+# CONFIGURARE IL SISTEMA OPERATIVO RASPBIAN
+Attendere che il processo di avvio si completi e fare il login con l'utente predefinito "pi" e la password "raspberry".
+Eseguire Raspbian con il comando: 
+>         sudo raspi-config
+D'ora in poi si dovrà premere il tasto <tab> e o <freccia su>/<freccia giù> per navigare tra le voci.
+     
+Attivare connessione SSH:
+>         "Interface Options"
+>         premere il tasto <Invio>
+>         "P2 SSH"
+>         selezionare "YES"
+>         selezionare "OK"
+     
+Attivare connessione SSH:
+>         "Localisation Options"
+>         premere il tasto <Invio>
+>         "P2 SSH"
+>         selezionare "YES"
+>         selezionare "OK"
+     
+
+Selezionare "S4 Hostname", premere il tasto <Invio> e poi "OK" nella finestra di dialogo di avviso.
+Inserire il nome host del Pi utilizzando solo caratteri alfanumerici e trattini ("-").
+Selezionare <Fine> e poi <Si> per riavviare e applicare la configurazione del nome host.
 ---------------------------------------------------------------------
 
