@@ -25,9 +25,10 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 >            cavo ethernet
 >            software Balena Etcher installato sul PC
 
-[MONTAGGIO COMPONENTI HARDWARE](#MONTAGGIO-COMPONENTI-HARDWARE)<br>
-[SCARICARE-IL-FILE-IMMAGINE-DEL-SISTEMA-OPERATIVO](#SCARICARE-IL-FILE-IMMAGINE-DEL-SISTEMA-OPERATIVO)<br>
-[DOWNLOAD SOFTWARE BALENA ETCHER](#DOWNLOAD-SOFTWARE-BALENA-ETCHER)<br>
+[MONTAGGIO COMPONENTI HARDWARE](#MONTAGGIO-COMPONENTI-HARDWARE)<br><br>
+[SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO](#SCARICARE-IL-FILE-IMMAGINE-DEL-SISTEMA-OPERATIVO)<br><br>
+[DOWNLOAD SOFTWARE BALENA ETCHER](#DOWNLOAD-SOFTWARE-BALENA-ETCHER)<br><br>
+[MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
 In base al pacchetto Raspberry comprato avremo diversi componenti da montare.
@@ -35,10 +36,13 @@ Montare i dissipatori di calore sui relativi SoC e chip. Fissare la scheda madre
 Attaccare sotto al case i gommini per evitare che le cariche elettrostatiche possano danneggiare i circuiti del Raspberry Pi 4.
 
 # SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO
-Scaricare il file immagine del S.O., studiato appositamente per Raspberry e basato su distro Debian, dal [sito ufficiale](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip).
+[Scaricare il file immagine del S.O.](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip), studiato appositamente per Raspberry e basato su distro Debian, dal [sito ufficiale](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip).
 
 # DOWNLOAD SOFTWARE BALENA ETCHER
 A questo punto sarà necessario scaricare il software [Balena Etcher](https://www.balena.io/etcher/), necessario per caricare il Sistema Operativo su micro SD, dal [sito ufficiale](https://www.balena.io/etcher/).
+
+# MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD
+
 
 ### checkpoint :white_check_mark: <br>
 Una volta assemblato saldamento e precisamente il tutto collegare il Raspberry 
