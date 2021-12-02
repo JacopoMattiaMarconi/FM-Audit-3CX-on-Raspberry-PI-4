@@ -1,3 +1,9 @@
+# Creazione web server con Raspberry Pi4 con Linux Ubuntu Server e router Linkem :computer:
+L'obiettivo finale sarà quello di creare un sito raggiungibile da remoto e un disco di rete NAS.<br>
+La configurazione iniziale del Raspberry verrà effettuata in maniera headless, tramite pc
+portatile e connessione SSH.<br>
+<br>
+
 [INSTALLAZIONE FISICA RASPBERRY PI4](#INSTALLAZIONE-FISICA-RASPBERRY-PI4)<br>
 [INSTALLAZIONE FM AUDIT](#INSTALLAZIONE-RUFUS)<br>
 [INSTALLAZIONE 3CX](#DOWNLOAD-SISTEMA-OPERATIVO)<br>
