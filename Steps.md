@@ -29,12 +29,14 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 [SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO](#SCARICARE-IL-FILE-IMMAGINE-DEL-SISTEMA-OPERATIVO)<br><br>
 [DOWNLOAD SOFTWARE BALENA ETCHER](#DOWNLOAD-SOFTWARE-BALENA-ETCHER)<br><br>
 [MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
-[MODIFICARE IL FILE CONFIG.TXT](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
+[MODIFICARE IL FILE CONFIG.TXT](#MODIFICARE-IL-FILE-CONFIG.TXT)<br><br>
+[MONTARE LA SCHEDA SD SUL RASPBERRY](#MMONTARE-LA-SCHEDA-SD-SUL-RASPBERRY)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
 In base al pacchetto Raspberry comprato avremo diversi componenti da montare.
 Montare i dissipatori di calore sui relativi SoC e chip. Fissare la scheda madre al case con le relative viti.
 Attaccare sotto al case i gommini per evitare che le cariche elettrostatiche possano danneggiare i circuiti del Raspberry Pi 4.
+NON collegare, per ora, il cavo di alimentazione alla reta elettrica.
 
 # SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO
 [Scaricare il file immagine del S.O.](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip), studiato appositamente per Raspberry e basato su distro Debian, dal [sito ufficiale](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip). Verrà scaricata una cartella zip.
@@ -74,10 +76,15 @@ Rimuovere '#' dalle seguenti linee:
 Salvare le modifiche effettuate, chiudere il file ed espellere la scheda SD in modo sicuro.
 
 
-### checkpoint :white_check_mark: <br>
-Una volta assemblato saldamento e precisamente il tutto collegare il Raspberry 
-alla rete elettrica con il relativo alimentatore e controllare che si accenda
-correttamente (la ventola a 5.1V (pin 2 e 6) sarà discretamente rumorosa).Uno dei due led diverrà rosso a conferma che la scheda è correttamente alimentata. <br>
+# MONTARE LA SCHEDA SD SUL RASPBERRY
+Una volta espulsa correttamente la scheda SD dal PC è il momento di inserirla, senza adattatore, nello slot del Raspberry PI4 ancora spento.
+Inserita la scheda SD:
+>         collegare il cavo ethernet tra Raspberry e porta ethernet a muro
+>         collegare il cavo HDMI tra Raspberry e monitor collegato alla rete elettrica
+>         collegare la tastiera al Raspberry
+     
+Infine:
+>         collegare l'alimentatore tra Raspberry e presa elettrica
 
 ---------------------------------------------------------------------
 
