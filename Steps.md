@@ -29,6 +29,7 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 [SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO](#SCARICARE-IL-FILE-IMMAGINE-DEL-SISTEMA-OPERATIVO)<br><br>
 [DOWNLOAD SOFTWARE BALENA ETCHER](#DOWNLOAD-SOFTWARE-BALENA-ETCHER)<br><br>
 [MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
+[MODIFICARE IL FILE CONFIG.TXT](#MONTARE-IL-SISTEMA-OPERATIVO-SU-SCHEDA-SD)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
 In base al pacchetto Raspberry comprato avremo diversi componenti da montare.
@@ -51,7 +52,26 @@ Per prima cosa:
 >       selezionare la voce "Flash from file"
 >       selezionare il file immagine del sistema operativo (.zip)
 >       selezionare la voce "Select target"
->       spuntare la casella con il nome 
+>       spuntare la casella con il nome della scheda SD
+>       selezionare la voce "Flash!" e aspettare il termine del caricamento
+
+### checkpoint :white_check_mark: <br>
+Una volta terminato il caricamento la scheda SD non dovrebbe più vedersi dal PC.
+Togliere la scheda SD dal PC e reinserirla nuovamente, in preparazione del prossimo passaggio.
+
+# MODIFICARE IL FILE CONFIG.TXT
+Una volta reinserita la scheda SD nello slot del PC:
+>        selezionare la partizione "BOOT" in Esplora Risorse
+>        aprire il file "config.txt"
+
+Rimuovere '#' dalle seguenti linee:
+>         hdmi_safe=1
+>         hdmi_force_hotplug=1
+>         hdmi_group=1
+>         hdmi_mode=1
+>         config_hdmi_boost=4
+
+Salvare le modifiche effettuate, chiudere il file ed espellere la scheda SD in modo sicuro.
 
 
 ### checkpoint :white_check_mark: <br>
