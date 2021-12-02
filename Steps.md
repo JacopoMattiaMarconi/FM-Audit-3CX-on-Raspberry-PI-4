@@ -36,12 +36,22 @@ Montare i dissipatori di calore sui relativi SoC e chip. Fissare la scheda madre
 Attaccare sotto al case i gommini per evitare che le cariche elettrostatiche possano danneggiare i circuiti del Raspberry Pi 4.
 
 # SCARICARE IL FILE IMMAGINE DEL SISTEMA OPERATIVO
-[Scaricare il file immagine del S.O.](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip), studiato appositamente per Raspberry e basato su distro Debian, dal [sito ufficiale](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip).
+[Scaricare il file immagine del S.O.](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip), studiato appositamente per Raspberry e basato su distro Debian, dal [sito ufficiale](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip). Verrà scaricata una cartella zip.
 
 # DOWNLOAD SOFTWARE BALENA ETCHER
 A questo punto sarà necessario scaricare il software [Balena Etcher](https://www.balena.io/etcher/), necessario per caricare il Sistema Operativo su micro SD, dal [sito ufficiale](https://www.balena.io/etcher/).
 
 # MONTARE IL SISTEMA OPERATIVO SU SCHEDA SD
+Una volta scaricato il Sistema Operativo sul PC e il programma Balena Etcher è il momento di caricare il Sistema Operativo su scheda SD.
+Per prima cosa:
+>       inserire la scheda SD con il relativo adattatore nello slot del PC
+
+
+>       avviare il programma Balena Etcher
+>       selezionare la voce "Flash from file"
+>       selezionare il file immagine del sistema operativo (.zip)
+>       selezionare la voce "Select target"
+>       spuntare la casella con il nome 
 
 
 ### checkpoint :white_check_mark: <br>
