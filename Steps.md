@@ -1,4 +1,4 @@
-# Creazione web server con Raspberry Pi4 con Linux Ubuntu Server e router Linkem :computer:
+# Installazione su Raspberry PI4 di FM Audit & 3CX :computer:
 L'obiettivo finale sarà quello di creare un sito raggiungibile da remoto e un disco di rete NAS.<br>
 La configurazione iniziale del Raspberry verrà effettuata in maniera headless, tramite pc
 portatile e connessione SSH.<br>
