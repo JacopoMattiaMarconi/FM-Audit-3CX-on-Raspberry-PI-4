@@ -32,6 +32,7 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 [MODIFICARE IL FILE CONFIG.TXT](#MODIFICARE-IL-FILE-CONFIG.TXT)<br><br>
 [MONTARE LA SCHEDA SD SUL RASPBERRY](#MONTARE-LA-SCHEDA-SD-SUL-RASPBERRY)<br><br>
 [CONFIGURARE IL SISTEMA OPERATIVO RASPBIAN](#CONFIGURARE-IL-SISTEMA-OPERATIVO-RASPBIAN)<br><br>
+[COMANDI UTILI](#COMANDI-UTILI)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
 In base al pacchetto Raspberry comprato avremo diversi componenti da montare.
@@ -139,6 +140,7 @@ Aggiornare il Raspberry:
 >         "Update"
 >         premere il tasto <Invio>
 
+# COMANDI UTILI
 ### Come muoversi tra le cartelle del Raspberry da linea di comando? :pushpin: <br>
 >         cd /cartella/...
 
@@ -163,7 +165,7 @@ oppure
      
 ### Come verificare le impostazioni di rete del Raspberry da linea di comando? :pushpin: <br>
 >         ifconfig
-e opzionalmente
+oppure
 >         ifconfig <nome-scheda-di-rete>
   
 ---------------------------------------------------------------------
