@@ -4,8 +4,8 @@ FM Audit e o 3CX.<br>
 <br>
 
 [INSTALLAZIONE FISICA RASPBERRY PI4](#INSTALLAZIONE-FISICA-RASPBERRY-PI4)<br>
-[INSTALLAZIONE FM AUDIT](#INSTALLAZIONE-RUFUS)<br>
-[INSTALLAZIONE 3CX](#DOWNLOAD-SISTEMA-OPERATIVO)<br>
+[INSTALLAZIONE 3CX](#INSTALLAZIONE-3CX)<br>
+[INSTALLAZIONE FM AUDIT](#INSTALLAZIONE-FM-AUDIT)<br>
 
 
 ## INSTALLAZIONE FISICA RASPBERRY PI4
@@ -102,6 +102,11 @@ Attivare connessione SSH:
 >         selezionare "YES"
 >         selezionare "OK"
      
+### checkpoint :white_check_mark: <br>
+D'ora in poi possiamo accedere all'interfaccia del Raspberry tramite "prompt dei comandi" di Windows, con il comando:
+>         ssh <nome-utente>@<indirizzo-ip>
+Ci verrà chiesto, poi, di inserire la password.
+     
 Cambiare impostazioni di codifica linguistica:
 >         "Localisation Options"
 >         premere il tasto <Invio>
@@ -184,3 +189,20 @@ e controllare che le impostazioni di rete siano state aggiunte correttamente
 
 ---------------------------------------------------------------------
 
+## INSTALLAZIONE 3CX
+eseguire il seguente comando:
+>         wget https://downloads-global.3cx.com/downloads/misc/d10pi.zip; sudo bash d10pi.zip 
+una volta terminata l'installazione dei pacchetti seleziona:
+>         1. 3CX
+presta molta attenzione a scegliere il configuratore via web, selezionando:
+>         1. Web Browser
+
+### checkpoint :white_check_mark: <br>
+A questo punto ti verrà assegnato un URL, che dovrai copiare e incollare sul tuo browser, per accedere all'interfaccia web del tuo 3CX.
+L'URL avrà questo formato:
+>         http://<indirizzo-ip>:5015
+
+     
+---------------------------------------------------------------------
+     
+## INSTALLAZIONE FM AUDIT
