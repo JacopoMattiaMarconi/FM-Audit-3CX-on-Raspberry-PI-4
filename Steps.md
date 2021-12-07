@@ -95,15 +95,15 @@ D'ora in poi si dovrà premere il tasto <tab> e o <freccia su>/<freccia giù> pe
      
 Attivare connessione SSH:
 >         "Interface Options"
->         premere il tasto <Invio>
->         "P2 SSH"
+>         premere il tasto <invio>
+>         "SSH" e tasto <invio>
 >         selezionare "YES"
 >         selezionare "OK"
      
 Cambiare impostazioni di codifica linguistica:
 >         "Localisation Options"
 >         premere il tasto <Invio>
->         "Locale"
+>         "Locale" e tasto <invio>
 >         <freccia in giù> 
 >         deselezionare la voce "en..." evidenziata con '*' premendo il tasto <spazio>
 >         selezionare la voce "it_IT.UTF-8 UTF-8" premendo il tasto <spazio>
@@ -115,8 +115,8 @@ Cambiare impostazioni di codifica linguistica:
  
 Cambiare impostazioni di time zone:
 >         "Localisation Options"
->         premere il tasto <Invio>
->         "Timezone"
+>         premere il tasto <invio>
+>         "Timezone" e tasto <invio>
 >         <freccia in giù> 
 >         selezionare la voce "Europa" premendo il tasto <invio>
 >         selezionare la voce "Roma" premendo il tasto <invio>
@@ -124,10 +124,11 @@ Cambiare impostazioni di time zone:
 Cambiare impostazioni della tastiera:
 >         "Localisation Options"
 >         premere il tasto <Invio>
->         "Timezone"
->         <freccia in giù> 
->         selezionare la voce "Europa" premendo il tasto <invio>
->         selezionare la voce "Roma" premendo il tasto <invio>     
+>         "Keyboard" e tasto <invio> 
+>         selezionare la voce "Generic 105-key PC (intl.)" premendo il tasto <invio>
+>         selezionare la voce "italiana" premendo il tasto <invio>
+>         selezionare le voci predefinite e o le prime voci successive premendo il tasto <invio>
+>
 
 Selezionare "S4 Hostname", premere il tasto <Invio> e poi "OK" nella finestra di dialogo di avviso.
 Inserire il nome host del Pi utilizzando solo caratteri alfanumerici e trattini ("-").
