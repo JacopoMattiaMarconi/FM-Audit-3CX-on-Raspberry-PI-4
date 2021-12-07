@@ -32,6 +32,7 @@ Per l'installazione fisica del Raspberry PI 4 avremo bisogno di:
 [MODIFICARE IL FILE CONFIG.TXT](#MODIFICARE-IL-FILE-CONFIG.TXT)<br><br>
 [MONTARE LA SCHEDA SD SUL RASPBERRY](#MONTARE-LA-SCHEDA-SD-SUL-RASPBERRY)<br><br>
 [CONFIGURARE IL SISTEMA OPERATIVO RASPBIAN](#CONFIGURARE-IL-SISTEMA-OPERATIVO-RASPBIAN)<br><br>
+[CONFIGURARE INTERFACCIA DI RETE](#CONFIGURARE-INTERFACCIA-DI-RETE)<br><br>
 [COMANDI UTILI](#COMANDI-UTILI)<br><br>
 
 # MONTAGGIO COMPONENTI HARDWARE
@@ -167,6 +168,19 @@ oppure
 >         ifconfig
 oppure
 >         ifconfig <nome-scheda-di-rete>
-  
+
+# CONFIGURARE INTERFACCIA DI RETE
+>         sudo nano /etc/dhcpcd.conf
+aggiungere le seguenti righe:
+>         interface eth0
+>            (3 spazi)static ip_address=<ip-statico-del-raspberry>
+>            (3 spazi)static routers=<ip-del-router>
+>            (3 spazi)static domain_name_servers=8.8.8.8
+
+### checkpoint :white_check_mark: <br>
+>         sudo reboot
+>         ifconfig
+e controllare che le impostazioni di rete siano state aggiunte correttamente
+
 ---------------------------------------------------------------------
 
