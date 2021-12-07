@@ -52,7 +52,6 @@ Una volta scaricato il Sistema Operativo sul PC e il programma Balena Etcher è 
 Per prima cosa:
 >       inserire la scheda SD con il relativo adattatore nello slot del PC
 
-
 >       avviare il programma Balena Etcher
 >       selezionare la voce "Flash from file"
 >       selezionare il file immagine del sistema operativo (.zip)
@@ -182,10 +181,9 @@ aggiungere le seguenti righe:
 >            (3 spazi)static domain_name_servers=8.8.8.8
 
 ### checkpoint :white_check_mark: <br>
+controllare che le impostazioni di rete siano state aggiunte correttamente
 >         sudo reboot
 >         ifconfig
-     
-e controllare che le impostazioni di rete siano state aggiunte correttamente
 <br><br><br>
 ---------------------------------------------------------------------
 <br><br><br>
