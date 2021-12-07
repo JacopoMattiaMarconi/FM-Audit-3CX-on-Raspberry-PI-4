@@ -90,7 +90,7 @@ Infine:
 # CONFIGURARE IL SISTEMA OPERATIVO RASPBIAN
 Attendere che il processo di avvio si completi e fare il login con l'utente predefinito "pi" e la password "raspberry".
 Eseguire Raspbian con il comando: 
->         sudo raspi-config
+>         sudo raspi-config !ATTENZIONE: la tastiera sarà in inglese, il simbolo '-' si trova al posto del simbolo '''
 D'ora in poi si dovrà premere il tasto <tab> e o <freccia su>/<freccia giù> per navigare tra le voci.
      
 Attivare connessione SSH:
@@ -100,13 +100,34 @@ Attivare connessione SSH:
 >         selezionare "YES"
 >         selezionare "OK"
      
-Attivare connessione SSH:
+Cambiare impostazioni di codifica linguistica:
 >         "Localisation Options"
 >         premere il tasto <Invio>
->         "P2 SSH"
->         selezionare "YES"
+>         "Locale"
+>         <freccia in giù> 
+>         deselezionare la voce "en..." evidenziata con '*' premendo il tasto <spazio>
+>         selezionare la voce "it_IT.UTF-8 UTF-8" premendo il tasto <spazio>
+>         premere il tasto <tab>
 >         selezionare "OK"
-     
+>         selezionare la voce "it_IT.UTF-8 UTF-8"
+>         premere il tasto <tab>
+>         selezionare "OK"
+ 
+Cambiare impostazioni di time zone:
+>         "Localisation Options"
+>         premere il tasto <Invio>
+>         "Timezone"
+>         <freccia in giù> 
+>         selezionare la voce "Europa" premendo il tasto <invio>
+>         selezionare la voce "Roma" premendo il tasto <invio>
+
+Cambiare impostazioni della tastiera:
+>         "Localisation Options"
+>         premere il tasto <Invio>
+>         "Timezone"
+>         <freccia in giù> 
+>         selezionare la voce "Europa" premendo il tasto <invio>
+>         selezionare la voce "Roma" premendo il tasto <invio>     
 
 Selezionare "S4 Hostname", premere il tasto <Invio> e poi "OK" nella finestra di dialogo di avviso.
 Inserire il nome host del Pi utilizzando solo caratteri alfanumerici e trattini ("-").
