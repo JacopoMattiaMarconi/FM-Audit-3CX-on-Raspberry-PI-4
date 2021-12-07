@@ -128,10 +128,43 @@ Cambiare impostazioni della tastiera:
 >         selezionare la voce "Generic 105-key PC (intl.)" premendo il tasto <invio>
 >         selezionare la voce "italiana" premendo il tasto <invio>
 >         selezionare le voci predefinite e o le prime voci successive premendo il tasto <invio>
->
 
-Selezionare "S4 Hostname", premere il tasto <Invio> e poi "OK" nella finestra di dialogo di avviso.
-Inserire il nome host del Pi utilizzando solo caratteri alfanumerici e trattini ("-").
-Selezionare <Fine> e poi <Si> per riavviare e applicare la configurazione del nome host.
+Cambiare impostazioni tecnologia WLAN:
+>         "Localisation Options"
+>         premere il tasto <Invio>
+>         "WLAN Country" e tasto <invio> 
+>         selezionare la voce "IT Italy" premendo il tasto <invio>
+     
+Aggiornare il Raspberry:
+>         "Update"
+>         premere il tasto <Invio>
+
+### Come muoversi tra le cartelle del Raspberry da linea di comando? :pushpin: <br>
+>         cd /cartella/...
+
+### Nel mondo linux non serve sapere a memoria il nome di una cartella, esiste l'autocompilazione (tasto <tab>) :pushpin: <br>
+>         cd /car<tab>tella/...     
+
+
+### Come editare un file su Raspberry da linea di comando? :pushpin: <br>
+>         sudo nano file
+oppure
+>         sudo nano /cartella1/cartella2/file
+
+### Come aggiornare il Raspberry da linea di comando? :pushpin: <br>
+>         sudo apt-get update
+>         sudo apt-get upgrade
+
+### Come riavviare il Raspberry da linea di comando? :pushpin: <br>
+>         sudo reboot
+     
+### Come spegnere il Raspberry da linea di comando? :pushpin: <br>
+>         sudo shutdown -h now
+     
+### Come verificare le impostazioni di rete del Raspberry da linea di comando? :pushpin: <br>
+>         ifconfig
+e opzionalmente
+>         ifconfig <nome-scheda-di-rete>
+  
 ---------------------------------------------------------------------
 
