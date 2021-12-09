@@ -203,6 +203,7 @@ L'URL avrà questo formato:
 ---------------------------------------------------------------------
 <br><br><br> 
 ## INSTALLAZIONE FM AUDIT
+Per l'installazione di FM Audit su Raspberry PI 4 seguire i comandi di seguito, copiando, incollando ed eseguendo un comando alla volta:
 >         sudo apt install apt-transport-https dirmngr gnupg ca-certificates
 >         sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 >         echo "deb https://download.mono-project.com/repo/debian stable-raspbianbuster main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
