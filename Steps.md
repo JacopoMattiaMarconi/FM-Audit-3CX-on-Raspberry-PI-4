@@ -209,3 +209,7 @@ L'URL avrà questo formato:
 >         sudo apt update
      
 >         sudo apt install mono-devel
+
+>         curl -gLO https://install.printfleetcdn.com/dca-pulse/1.5.0.8462/TrTcfPUxqDlcg9jTgRJTklgpg/Linux-x86_64/ecidca-1.5.0.8462-Linux-x86_64-install-|\[mds.fmwebaudit.com\!-7defb70161474220aec8e0627958369c\].sh
+>         chmod +x ecidca-1.5.0.8462-Linux-x86_64-install-\[mds.fmwebaudit.com\!-7defb70161474220aec8e0627958369c\].sh
+>         ./ecidca-1.5.0.8462-Linux-x86_64-install-\[mds.fmwebaudit.com\!-7defb70161474220aec8e0627958369c\].sh
